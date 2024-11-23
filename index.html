@@ -12,7 +12,7 @@
             display: flex;
             justify-content: center; /* Centre horizontalement le conteneur */
             align-items: center; /* Centre verticalement le conteneur */
-            height: 100vh; /* Hauteur de la fenêtre */
+            height: 150vh; /* Hauteur de la fenêtre */
             overflow: hidden; /* Empêche le défilement de la page */
             font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Police élégante */
         }
@@ -22,7 +22,7 @@
             position: relative;
             width: 90%; /* Largeur ajustée à 90% de la fenêtre */
             max-width: 1600px; /* Largeur maximale augmentée pour éviter le rognage */
-            height: 120px; /* Hauteur initiale (3 phrases * 40px) */
+            height: 150px; /* Hauteur initiale (3 phrases * 40px) */
             overflow: hidden; /* Masque le contenu débordant */
             background-color: #000; /* Fond noir */
             border-radius: 10px; /* Coins arrondis */
@@ -36,10 +36,10 @@
         #scroll-content {
             display: flex;
             flex-direction: column; /* Arrange les phrases en colonne */
-            position: absolute; /* Positionnement absolu pour permettre l'animation */
+            position: center;
             top: 0;
             left: 0;
-            animation: scroll 30s linear infinite alternate; /* Animation de défilement */
+            animation: scroll 60s linear infinite alternate; /* Animation de défilement */
         }
 
         /* Styles des phrases */
@@ -128,10 +128,13 @@
             <div class="phrase">Certains pensent même que</div>
             <div class="phrase">L’IA est loin d'être une révolution.</div>
             <div class="phrase">Il est donc difficile de croire que</div>
-            <div class="phrase">Cette offre est vraiment exceptionnelle !</div>
+            <div class="phrase">Cette offre est vraiement exceptionnelle !</div>
             <div class="phrase">---</div>
             <div class="phrase">Pourtant...</div>
             <!-- Phrases dupliquées pour boucle infinie -->
+			<div class="phrase">   </div>
+            <div class="phrase">   </div>
+            <div class="phrase">   </div>
             <div class="phrase">La nouvelle offre d’acculturation à l’IA d’Inside est lancée.</div>
             <div class="phrase">Après 10 ans d’expertise dans la transformation digitale.</div>
             <div class="phrase">Après une année d'exploration de l'IA avec les meilleurs experts.</div>
@@ -145,7 +148,7 @@
             <div class="phrase">Certains pensent même que</div>
             <div class="phrase">L’IA est loin d'être une révolution.</div>
             <div class="phrase">Il est donc difficile de croire que</div>
-            <div class="phrase">Cette offre est vraiment exceptionnelle !</div>
+            <div class="phrase">Cette offre est vraiement exceptionnelle</div>
             <div class="phrase">---</div>
             <div class="phrase">Pourtant...</div>
         </div>
